@@ -1,0 +1,9 @@
+dir
+cls
+mkdir
+cd
+cd/
+cd..
+echo
+echo 'texto'> nome do arquivo.ext
+rmdir "nome do diretorio" /S /Q

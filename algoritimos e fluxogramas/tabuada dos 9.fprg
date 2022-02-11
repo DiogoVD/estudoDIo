@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Diogo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-19 07:01:43 "/>
+        <attribute name="created" value="RGlvZ287TEFQVE9QLUI5UEtRTUdHOzIwMjEtMDktMTk7IjA2OjU1OjEyICI7Mjc4Mw=="/>
+        <attribute name="edited" value="RGlvZ287TEFQVE9QLUI5UEtRTUdHOzIwMjEtMDktMTk7IjA3OjAxOjQzICI7MTsyODg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ini, fim" type="Integer" array="False" size=""/>
+            <assign variable="ini" expression="0"/>
+            <assign variable="fim" expression="10"/>
+            <while expression="ini&lt;=fim">
+                <output expression="&quot;9 x &quot;&amp;ini&amp;&quot; = &quot;&amp;9*ini" newline="True"/>
+                <assign variable="ini" expression="ini+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

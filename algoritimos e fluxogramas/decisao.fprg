@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Diogo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-17 08:42:56 "/>
+        <attribute name="created" value="RGlvZ287TEFQVE9QLUI5UEtRTUdHOzIwMjEtMDktMTc7IjA4OjEyOjQ2ICI7Mjc4Mw=="/>
+        <attribute name="edited" value="RGlvZ287TEFQVE9QLUI5UEtRTUdHOzIwMjEtMDktMTc7IjA4OjQyOjU2ICI7MTsyODk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <output expression="&quot;parabens vc foi aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente a loja aceita apenas cart&#227;o como forma de pagamento&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

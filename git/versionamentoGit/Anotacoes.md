@@ -11,6 +11,7 @@ Repositorio de anotaçoes  do git e Github do [DIO](https://www.dio.me/)
 
 ## 🖥️ Resumo das aulas
 
+Resumo Aula 1
 
 
 ## 🔗 Atalhos
